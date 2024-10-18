@@ -1,0 +1,27 @@
+body{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+}
+
+.audio{
+    display: flex;
+    align-items: end;
+    width: 300px;
+    height: 500px;
+    border: 8px inset red;
+    border-radius: 30px;
+    background-image: url(https://cdn.dribbble.com/users/4027971/screenshots/9870589/media/26eca5c196af3bda4a268e8e15c51dab.gif);
+    background-size: cover;
+    background-position: center;
+    transition: 2s;
+}
+
+.audio:hover{
+    height: 300px;
+    transition: 2s;
+    box-shadow: 0px 0px 10px 10px blue;
+    border-radius: 0px 50px 0px 50px;
+    transform: rotateY(369deg);
+}
+
